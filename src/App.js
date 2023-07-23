@@ -20,8 +20,6 @@ function App() {
   const {
     authState: { token },
   } = useAuthContext();
-
-  const [darkMode, setDarkMode] = useState(false);
   const location = useLocation();
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });

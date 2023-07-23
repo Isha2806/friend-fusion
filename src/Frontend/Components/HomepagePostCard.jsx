@@ -2,18 +2,14 @@ import React, { useEffect, useRef, useState } from "react";
 import "../styles/homepageCard.css";
 import {
   AiFillHeart,
-  AiOutlineDelete,
-  AiOutlineEdit,
   AiOutlineHeart,
 } from "react-icons/ai";
-import { RiUserUnfollowLine } from "react-icons/ri";
 import { BiComment } from "react-icons/bi";
-import { BsBookmark, BsImage } from "react-icons/bs";
+import { BsImage } from "react-icons/bs";
 import { SlOptions } from "react-icons/sl";
 import {
   addBookmarkHandler,
   cloudinaryImageFetcher,
-  deleteBookmarkHandler,
   dislikeHandler,
   followUserHandler,
   likeHandler,
